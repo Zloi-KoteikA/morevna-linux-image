@@ -123,6 +123,7 @@
       update_cache: no
       name: 
        - firefox-esr
+       - chromium-gost
        - LibreOffice-langpack-ru
        - LibreOffice-qt5
        - hunspell-ru-lebedev
@@ -134,6 +135,8 @@
       name: 
        - bindfs
        - git
+       - nextcloud-client
+       - shutter
   - name: NFS server/client
     apt_rpm:
       state: present
